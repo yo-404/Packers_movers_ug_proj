@@ -1,0 +1,33 @@
+.counter_area{
+    padding-bottom: 85px;
+    padding-top: 12px;
+    .offcan_bg{
+        background-image: url(../img/about/0ffcan.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        padding: 70px 0 40px 0;
+    }
+    .single_counter{
+        margin-bottom: 30px;
+        @media #{$mobile_device} {
+            text-align: center;
+        }
+        h3{
+            color: #FF3414;
+            font-weight: 500;
+            font-size: 46px;
+            margin-bottom: 5px;
+            span{
+                span{
+
+                }
+            }
+        }
+        p{
+            color: #596672;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+    }
+}

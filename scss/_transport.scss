@@ -1,0 +1,35 @@
+.transportaion_area{
+    padding: 120px 0 90px 0;
+    @media #{$mobile_device} {
+        padding: 70px 0 40px 0;
+    }
+    .single_transport{
+        padding-right: 65px;
+        margin-bottom: 30px;
+        @media #{$mobile_device}{
+            padding-right: 0;
+        }
+        .icon{
+            height: 50px;
+        }
+        h3{
+            font-size: 22px;
+            font-weight: 500;
+            color: #001D38;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            @include transition(.3s);
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #919191;
+        }
+        &:hover{
+            h3{
+                color:#FF3414 ;
+            }
+        }
+    }
+}

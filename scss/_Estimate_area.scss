@@ -1,0 +1,108 @@
+.Estimate_area{
+    background-image: url(../img/banner/Estimate_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 120px 0;
+    &.overlay:before{
+        background: #001D38;
+        opacity:.94 ;
+    }
+    .Estimate_info{
+        h3{
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        p{
+            color: #C7C7C7;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 23px;
+            margin-bottom: 33px;
+        }  
+        .boxed-btn3 {
+            @include border-radius(50px);
+            padding: 9px 40px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        @media #{$mobile_device} {
+            margin-bottom: 30px;
+        }
+    }
+    .form{
+        .input_field{
+            input,textarea{
+                width: 100%;
+                height: 50px;
+                @include border-radius(5px);
+                border: 1px solid #667686;
+                padding: 18px 15px;
+                font-size: 14px;
+                background: transparent ;
+                color: #fff;
+                margin-bottom: 15px;
+                &::placeholder{
+                    color: #C7C7C7;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            textarea{
+                height: 105px;
+            }
+        }
+        .nice-select {
+
+            font-size: 14px;
+            height: 50px;
+            line-height: 50px;
+            outline: none;
+            padding-left: 18px;
+            padding-right: 30px;
+            position: relative;
+            text-align: left !important;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            white-space: nowrap;
+            width: auto;
+            background: transparent;
+            border: 1px solid #687786;
+            margin-bottom: 15px;
+            width: 100%;
+            color: #C7C7C7;
+            .option {
+                color: #000;
+            }
+        }
+        .boxed-btn3-line{
+            width: 100%;
+            @include border-radius(5px);
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .nice-select::after {
+        content: "\e64b";
+        display: block;
+        height: 5px;
+        margin-top: -5px;
+        pointer-events: none;
+        position: absolute;
+        right: 30px;
+        top: 4px;
+        transition: all 0.15s ease-in-out;
+        width: 5px;
+        font-family: 'themify';
+        color: #ddd;
+        font-size: 12px;
+    }
+}

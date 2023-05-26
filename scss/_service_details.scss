@@ -1,0 +1,87 @@
+.service_details_area{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .service_details_info{
+        h3{
+            font-size: 36px;
+            color: #001D38;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 28px;
+            color: #596672;
+        }
+        margin-bottom: 36px;
+    }
+
+    .service_details_left{
+        h3{
+            font-size: 22px;
+            color: #001D38;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+        .nav{
+            display: block !important;
+            a{
+                padding: 0;
+                border-bottom: 1px solid #EAEAEA;
+                color: #001D38;
+                font-size: 16px;
+                padding: 25px 0;
+                display: block;
+                &:last-child{
+                    border-bottom: 0;;
+                }
+                &.active, .nav-pills > a {
+                    color: #fff;
+                    background-color: transparent;
+                    color:#FF3414;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.download_brochure{
+    background: #F5FBFF;
+    padding:33px 45px;
+    @media #{$mobile_device} {
+        display: block !important;
+    }
+    @media #{$tablet_device} {
+        display: block !important;
+    }
+    .download_left{
+        @media #{$mobile_device} {
+            display: block !important;
+            margin-bottom: 20px;
+        }
+        @media #{$tablet_device} {
+            display: block !important;
+            margin-bottom: 20px;
+        }
+        .icon{
+            margin-right: 30px;
+            @media #{$mobile_device} {
+                margin-bottom: 20px;
+            }
+        }
+        .download_text{
+            h3{
+                font-size: 22px;
+                font-weight: 400;
+                margin-bottom: 0;
+                color: #001D38;
+            }
+            p{
+                font-size: 14px;
+                color: #596672;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

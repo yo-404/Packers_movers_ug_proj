@@ -1,0 +1,177 @@
+.boxed-btn {
+	background: #fff;
+	color: #131313;
+	display: inline-block;
+	padding: 18px 44px;
+	font-family: $font1;
+	font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #FF3414;
+    letter-spacing: 3px;
+    // width: 180px;
+    text-align: center;
+    color: #FF3414 !important;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background: #FF3414;
+        color: #fff !important;
+        border: 1px solid #FF3414;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.large-width{
+        width: 220px;
+    }
+}
+.boxed-btn3 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
+    background:#FF3414;
+	color: #fff;
+	display: inline-block;
+	padding: 18px 42px;
+	font-family: $font1;
+	font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    // width: 180px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    @include transition(.3s);
+    cursor: pointer;
+    // letter-spacing: 2px;
+    &:hover{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
+    //    background: #fff;
+       color: #FF3414 !important;
+       border: 1px solid #FF3414;
+       background: transparent;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.large-width{
+        width: 220px;
+    }
+}
+
+.boxed-btn3-white {
+	color: #fff;
+	display: inline-block;
+    padding: 13px 27px;
+	font-family: $font1;
+	font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #fff;
+    @include border-radius(5px);
+    // width: 180px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    @include transition(.5s);
+    cursor: pointer;
+    letter-spacing: 2px;
+    &:hover{
+        background: #28AE61;
+        color: #fff !important;
+        border: 1px solid transparent;
+    }
+    i{
+        margin-right: 2px;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.large-width{
+        width: 220px;
+    }
+}
+
+.boxed-btn3-line {
+	color: #FF3414 !important;
+	display: inline-block;
+    padding: 14px 31px;
+	font-family: $font1;
+	font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #FF3414;
+    // width: 180px;
+    text-align: center;
+    text-transform: capitalize;
+    @include transition(.5s);
+    cursor: pointer;
+    background: transparent ;
+    &:hover{
+        color: #fff !important;
+        border: 1px solid transparent;
+        background: #FF3414;
+    }
+    &:focus{
+        outline: none;
+    }
+    &.large-width{
+        width: 220px;
+    }
+}
+.boxed-btn2 {
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	padding: 18px 24px;
+	font-family: $font1;
+	font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover{
+        background: #fff;
+        color: #131313 !important;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.line-button{
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    &::before{
+        position: absolute;
+        content: "";
+        background: #919191;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+    }
+    &:hover{
+        color: #009DFF;
+    }
+    &:hover::before{
+        background: #009DFF;
+    }
+}
+.book_now{
+    display: inline-block;
+    font-size: 14px;
+    color: #009DFF;
+    border: 1px solid #009DFF;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    &:hover{
+        background: #009DFF;
+        color: #fff;
+    }
+}
